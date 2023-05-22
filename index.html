@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="style/all.min.css" />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo basic">
+        <h1>To Do</h1>
+        <ul class="todo-tasks"></ul>
+        <form action="#">
+          <input type="text" id="todo-input" placeholder="Enter You Text..." />
+          <button type="submit">+Add</button>
+        </form>
+      </div>
+      <div class="doing basic">
+        <h1>Doing</h1>
+        <ul class="doing-tasks"></ul>
+        <form action="#">
+          <input type="text" id="doing-input" placeholder="Enter You Text..." />
+          <button type="submit">+Add</button>
+        </form>
+      </div>
+      <div class="done basic">
+        <h1>Done</h1>
+        <ul class="done-tasks"></ul>
+        <form action="#">
+          <input type="text" id="done-input" placeholder="Enter You Text..." />
+          <button type="submit">+Add</button>
+        </form>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
